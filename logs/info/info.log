@@ -1,0 +1,282 @@
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Running Spark version 3.5.5
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] OS info Windows 11, 10.0, amd64
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Java version 1.8.0_411
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] ==============================================================
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] No custom resources configured for spark.driver.
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] ==============================================================
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Submitted application: BasicWordCount
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Limiting resource is cpu
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Added ResourceProfile id: 0
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Changing view acls to: yzhou
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Changing modify acls to: yzhou
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Changing view acls groups to: 
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Changing modify acls groups to: 
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] SecurityManager: authentication disabled; ui acls disabled; users with view permissions: yzhou; groups with view permissions: EMPTY; users with modify permissions: yzhou; groups with modify permissions: EMPTY
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Successfully started service 'sparkDriver' on port 56308.
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Registering MapOutputTracker
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Registering BlockManagerMaster
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] BlockManagerMasterEndpoint up
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Registering BlockManagerMasterHeartbeat
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] Created local directory at C:\Users\yzhou\AppData\Local\Temp\blockmgr-1f0c65a5-41c3-4983-923c-b864077d77e7
+2025-06-26 19:25:08 [ Logging.scala:60 ] - [ INFO ] MemoryStore started with capacity 15.8 GiB
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Registering OutputCommitCoordinator
+2025-06-26 19:25:09 [ Log.java:170 ] - [ INFO ] Logging initialized @11581ms to org.sparkproject.jetty.util.log.Slf4jLog
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Start Jetty 0.0.0.0:4040 for SparkUI
+2025-06-26 19:25:09 [ Server.java:375 ] - [ INFO ] jetty-9.4.56.v20240826; built: 2024-08-26T17:15:05.868Z; git: ec6782ff5ead824dabdcf47fa98f90a4aedff401; jvm 1.8.0_411-b09
+2025-06-26 19:25:09 [ Server.java:415 ] - [ INFO ] Started @11738ms
+2025-06-26 19:25:09 [ AbstractConnector.java:333 ] - [ INFO ] Started ServerConnector@64a1951{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Successfully started service 'SparkUI' on port 4040.
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@3f6bf8aa{/,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Starting executor ID driver on host DESKTOP-M90RA91
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] OS info Windows 11, 10.0, amd64
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Java version 1.8.0_411
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Starting executor with user classpath (userClassPathFirst = false): ''
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@661fe025 for default.
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 56357.
+2025-06-26 19:25:09 [ NettyBlockTransferService.scala:84 ] - [ INFO ] Server created on DESKTOP-M90RA91:56357
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Registering BlockManager BlockManagerId(driver, DESKTOP-M90RA91, 56357, None)
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Registering block manager DESKTOP-M90RA91:56357 with 15.8 GiB RAM, BlockManagerId(driver, DESKTOP-M90RA91, 56357, None)
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Registered BlockManager BlockManagerId(driver, DESKTOP-M90RA91, 56357, None)
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Initialized BlockManager: BlockManagerId(driver, DESKTOP-M90RA91, 56357, None)
+2025-06-26 19:25:09 [ ContextHandler.java:1159 ] - [ INFO ] Stopped o.s.j.s.ServletContextHandler@3f6bf8aa{/,null,STOPPED,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@7c90b7b7{/jobs,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@3ba1308d{/jobs/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@4a9a878{/jobs/job,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@5c6a5192{/jobs/job/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@552cede7{/stages,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@151732fb{/stages/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@31e739bf{/stages/stage,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@7e7743ec{/stages/stage/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@7f42e06e{/stages/pool,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@2efd2f21{/stages/pool/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@316cda31{/storage,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@17d2b075{/storage/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@310b2b6f{/storage/rdd,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@6b5ab2f2{/storage/rdd/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@6b2dd3df{/environment,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@73c48264{/environment/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@5bcec67e{/executors,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@7a2fce12{/executors/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@4bb1b96b{/executors/threadDump,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@1f66d8e1{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@3421debd{/static,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@3d615b2e{/,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@40ce9049{/api,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@2bb41f5c{/jobs/job/kill,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@7da635c0{/stages/stage/kill,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@4f93bf0a{/metrics/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+2025-06-26 19:25:09 [ Logging.scala:60 ] - [ INFO ] Warehouse path is 'file:/E:/Code/Java/spark-tutorial/spark-warehouse'.
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@79957f11{/SQL,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@4b41587d{/SQL/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@7cf63b9a{/SQL/execution,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@265a094b{/SQL/execution/json,null,AVAILABLE,@Spark}
+2025-06-26 19:25:09 [ ContextHandler.java:921 ] - [ INFO ] Started o.s.j.s.ServletContextHandler@16d0e521{/static/sql,null,AVAILABLE,@Spark}
+2025-06-26 19:25:11 [ Logging.scala:60 ] - [ INFO ] It took 34 ms to list leaf files for 1 paths.
+2025-06-26 19:25:14 [ Logging.scala:60 ] - [ INFO ] Pushed Filters: 
+2025-06-26 19:25:14 [ Logging.scala:60 ] - [ INFO ] Post-Scan Filters: 
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Block broadcast_0 stored as values in memory (estimated size 349.0 KiB, free 15.8 GiB)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.0 KiB, free 15.8 GiB)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Added broadcast_0_piece0 in memory on DESKTOP-M90RA91:56357 (size: 34.0 KiB, free: 15.8 GiB)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Created broadcast 0 from javaRDD at BasicWordCount.java:69
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Planning scan with bin packing, max size: 4195677 bytes, open cost is considered as scanning 4194304 bytes.
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Starting job: collect at BasicWordCount.java:82
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Registering RDD 6 (mapToPair at BasicWordCount.java:76) as input to shuffle 0
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Got job 0 (collect at BasicWordCount.java:82) with 1 output partitions
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Final stage: ResultStage 1 (collect at BasicWordCount.java:82)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Parents of final stage: List(ShuffleMapStage 0)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Missing parents: List(ShuffleMapStage 0)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Submitting ShuffleMapStage 0 (MapPartitionsRDD[6] at mapToPair at BasicWordCount.java:76), which has no missing parents
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Block broadcast_1 stored as values in memory (estimated size 25.2 KiB, free 15.8 GiB)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Block broadcast_1_piece0 stored as bytes in memory (estimated size 11.6 KiB, free 15.8 GiB)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Added broadcast_1_piece0 in memory on DESKTOP-M90RA91:56357 (size: 11.6 KiB, free: 15.8 GiB)
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Created broadcast 1 from broadcast at DAGScheduler.scala:1585
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[6] at mapToPair at BasicWordCount.java:76) (first 15 tasks are for partitions Vector(0))
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Adding task set 0.0 with 1 tasks resource profile 0
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Starting task 0.0 in stage 0.0 (TID 0) (DESKTOP-M90RA91, executor driver, partition 0, PROCESS_LOCAL, 9599 bytes) 
+2025-06-26 19:25:15 [ Logging.scala:60 ] - [ INFO ] Running task 0.0 in stage 0.0 (TID 0)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Code generated in 386.4921 ms
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Reading File path: file:///E:/Code/Java/spark-tutorial/wc_input.txt, range: 0-1373, partition values: [empty row]
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Code generated in 11.6253 ms
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Finished task 0.0 in stage 0.0 (TID 0). 1765 bytes result sent to driver
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Finished task 0.0 in stage 0.0 (TID 0) in 1004 ms on DESKTOP-M90RA91 (executor driver) (1/1)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] ShuffleMapStage 0 (mapToPair at BasicWordCount.java:76) finished in 1.173 s
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] looking for newly runnable stages
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] running: Set()
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] waiting: Set(ResultStage 1)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] failed: Set()
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Submitting ResultStage 1 (ShuffledRDD[7] at reduceByKey at BasicWordCount.java:79), which has no missing parents
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Block broadcast_2 stored as values in memory (estimated size 5.2 KiB, free 15.8 GiB)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Block broadcast_2_piece0 stored as bytes in memory (estimated size 2.9 KiB, free 15.8 GiB)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Added broadcast_2_piece0 in memory on DESKTOP-M90RA91:56357 (size: 2.9 KiB, free: 15.8 GiB)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Created broadcast 2 from broadcast at DAGScheduler.scala:1585
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Submitting 1 missing tasks from ResultStage 1 (ShuffledRDD[7] at reduceByKey at BasicWordCount.java:79) (first 15 tasks are for partitions Vector(0))
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Adding task set 1.0 with 1 tasks resource profile 0
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Starting task 0.0 in stage 1.0 (TID 1) (DESKTOP-M90RA91, executor driver, partition 0, NODE_LOCAL, 8817 bytes) 
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Running task 0.0 in stage 1.0 (TID 1)
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Getting 1 (1538.0 B) non-empty blocks including 1 (1538.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+2025-06-26 19:25:16 [ Logging.scala:60 ] - [ INFO ] Started 0 remote fetches in 13 ms
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] Finished task 0.0 in stage 1.0 (TID 1). 4679 bytes result sent to driver
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] Finished task 0.0 in stage 1.0 (TID 1) in 161 ms on DESKTOP-M90RA91 (executor driver) (1/1)
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] ResultStage 1 (collect at BasicWordCount.java:82) finished in 0.169 s
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] Killing all running tasks in stage 1: Stage finished
+2025-06-26 19:25:17 [ Logging.scala:60 ] - [ INFO ] Job 0 finished: collect at BasicWordCount.java:82, took 1.513672 s
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Spark: 12
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Python: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] it: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] its: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] APIs: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] general: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] have: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] computation: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] include: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] locally: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Java: 4
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Hadoop’s: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] UNIX-like: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] This: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] —: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] documentation: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] also: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] graph: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] easy: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] should: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] for: 8
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] any: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] install: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] handful: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] engine: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] version: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] your: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] the: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] free: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] are: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] provides: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] can: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Mac: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] build: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] popular: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] ARM64: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] source: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Apache: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] eg: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] projects: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] client: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] including: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] large-scale: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] all: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] HDFS: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] pre-packagedfor: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] libraries: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] by: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] like: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] classpath: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] x86_64: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] It: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] java: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Maven: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] JVMs: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] both: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] supported: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] an: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] variable: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Scala: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] machine: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] If: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] environment: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] PyPI: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Streaming: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] rich: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] systems: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] It’s: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] stream: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] GraphX: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] installation: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] visit: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] is: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] API: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] website: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] run: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] pandas: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] download: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] R: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] runs: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] on: 6
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] one: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] with: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] downloads: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] data: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Structured: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Downloads: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] in: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] augmenting: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] incremental: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] using: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] versions: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] optimized: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] execution: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Spark’s: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Linux: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] from: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] set: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] page: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] workloads: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] learning: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] project: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] you: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Building: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] higher-level: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] need: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] a: 6
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] or: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] graphsIt: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] high-level: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] that: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] uses: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] SQL: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] 340: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] processing: 4
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] pointing: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] YARN: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Get: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] PATH: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] analytics: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] installed: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] their: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] to: 4
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] platform: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] of: 4
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] tools: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] JAVA_HOME: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] binary: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] structured: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] MLlib: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] you’d: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] coordinates: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] users: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Windows: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] and: 12
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] unified: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] supports: 2
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Users: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] system: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] OS: 1
+2025-06-26 19:25:17 [ BasicWordCount.java:87 ] - [ INFO ] Hadoop: 3
+2025-06-26 19:25:17 [ BasicWordCount.java:91 ] - [ INFO ] sleep 10s
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] SparkContext is stopping with exitCode 0.
+2025-06-26 19:25:27 [ AbstractConnector.java:383 ] - [ INFO ] Stopped Spark@64a1951{HTTP/1.1, (http/1.1)}{0.0.0.0:4040}
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] Stopped Spark web UI at http://DESKTOP-M90RA91:4040
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] MapOutputTrackerMasterEndpoint stopped!
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] MemoryStore cleared
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] BlockManager stopped
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] BlockManagerMaster stopped
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] OutputCommitCoordinator stopped!
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] Successfully stopped SparkContext
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] Shutdown hook called
+2025-06-26 19:25:27 [ Logging.scala:60 ] - [ INFO ] Deleting directory C:\Users\yzhou\AppData\Local\Temp\spark-8a794845-bced-41be-bd5c-7245610c5e39

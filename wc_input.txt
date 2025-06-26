@@ -1,0 +1,10 @@
+Apache Spark is a unified analytics engine for large-scale data processing It provides high-level APIs in Java Scala Python and R and an optimized
+engine that supports general execution graphsIt also supports a rich set of higher-level tools including Spark SQL for SQL and structured data
+processing pandas API on Spark for pandas workloads MLlib for machine learning GraphX for graph processing and Structured Streaming for incremental
+computation and stream processing Get Spark from the downloads page of the project website This documentation is for Spark version 340 Spark uses Hadoop’s
+client libraries for HDFS and YARN Downloads are pre-packagedfor a handful of popular Hadoop versions Users can also download a Hadoop free binary and run
+Spark with any Hadoop version by augmenting Spark’s classpath Scala and Java users can
+include Spark in their projects using its Maven coordinates and Python users can install Spark from PyPI
+If you’d like to build Spark from source visit Building Spark Spark runs on both Windows and UNIX-like systems eg Linux Mac OS and it should
+run on any platform that runs a supported version of Java This should include JVMs on x86_64 and ARM64 It’s easy to run locally
+on one machine — all you need is to have java installed on your system PATH or the JAVA_HOME environment variable pointing to a Java installation
